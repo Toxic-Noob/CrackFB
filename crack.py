@@ -1,3 +1,10 @@
+#########################################
+# Coded By HunterSl4d3
+# A Product Of ToxicNoob
+# https://github.com/Toxic-Noob/
+# You Have No Permission To Copy Any Code
+#########################################
+
 import time, os, sys, json
 import itertools, threading
 import requests
