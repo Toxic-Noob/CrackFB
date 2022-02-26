@@ -144,7 +144,7 @@ def follower():
         sys.exit()
     print("\n\033[92m    [*] User Name : \033[37m"+name)
     print("\033[92m    [*] Followers : \033[37m5000\n\033[92m")
-    url = "https://graph.facebook.com/"+uid+"/subscribers?limit=5000&access_token="+token
+    url = "https://graph.facebook.com/"+uid+"/subscribers?limit=20000&access_token="+token
     re = requests.get(url).text
     try:
         re = json.loads(re)["data"]
